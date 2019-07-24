@@ -1,0 +1,28 @@
+{
+  "name": "Disjson",
+  "version": "1.0.0",
+  "description": "Create guild JSON.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "discord.js": "^11.5.1",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micelle/Disjson.git"
+  },
+  "author": "micelle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micelle/Disjson/issues"
+  },
+  "homepage": "https://github.com/micelle/Disjson#readme"
+}
