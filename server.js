@@ -29,7 +29,6 @@ io.on('connection', function(socket) {
 // Discordの処理
 // --------------------------------------------------------
 const request = require('request');
-const fs = require('fs');
 const Discord = require('discord.js');
 const client = new Discord.Client({sync: true});
 const setting = {
@@ -38,7 +37,7 @@ const setting = {
   'url': process.env.DISCORD_URL,
 };
 let lastStatus = 'offline'; // ステータスを保持しておく
-let lastLog; 
+let lastLog;
 if (!setting.guildId.length || !setting.token.length || !setting.url.length) {
   log('error', '設定が記載されていないため、処理を終了します。', '');
   process.exit(1);
