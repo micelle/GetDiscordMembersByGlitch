@@ -1,7 +1,7 @@
 {
-  "name": "Disjson",
-  "version": "1.0.0",
-  "description": "Create guild JSON.",
+  "name": "GetDiscordMembersByGlitch",
+  "version": "1.0.1",
+  "description": "Discordのサーバー参加者を取得し、外部サーバーへPOSTする。",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/micelle/Disjson.git"
+    "url": "git+https://github.com/micelle/GetDiscordMembersByGlitch.git"
   },
   "author": "micelle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/micelle/Disjson/issues"
+    "url": "https://github.com/micelle/GetDiscordMembersByGlitch/issues"
   },
-  "homepage": "https://github.com/micelle/Disjson#readme"
+  "homepage": "https://github.com/micelle/GetDiscordMembersByGlitch#readme"
 }
